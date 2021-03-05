@@ -30,7 +30,7 @@ export default (prop, values, prefix) => {
         prefix,
         utility: `${utility}${key}`,
         variant,
-        value: values[key],
+        value: values[key]
       }),
     )
   }
@@ -49,7 +49,7 @@ export default (prop, values, prefix) => {
         prefix,
         utility,
         variant,
-        value: utility !== value ? value : undefined,
+        value: value ? (utility !== value ? value : undefined) : undefined
       })
     })
     .filter(value => !!value)

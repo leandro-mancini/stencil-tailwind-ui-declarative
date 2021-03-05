@@ -8,10 +8,12 @@ import { Base } from '../base';
 })
 export class Box implements ComponentInterface {
 
-  @Element() el: any;
+  @Element() el: HTMLElement;
 
   render() {
     const properties = getElementAttributes(this.el.attributes);
+
+    console.log(properties);
 
     return <Base {...properties}>
       <slot/>

@@ -60,12 +60,19 @@ const sizing = {
   w: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
+const overflow = {
+  overflow: PropTypes.oneOf(['hidden', 'auto', 'scroll']),
+  overflowX: PropTypes.oneOf(['hidden', 'auto', 'scroll']),
+  overflowY: PropTypes.oneOf(['hidden', 'auto', 'scroll']),
+}
+
 export const propTypes = {
   ...typography,
   ...backgrounds,
   ...spacing,
   ...sizing,
-  ...borders
+  ...borders,
+  ...overflow
 }
 
 export default [

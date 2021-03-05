@@ -2,7 +2,7 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'ui-declarativa',
-  globalStyle: 'src/global/global.css',
+  globalStyle: 'src/style.css',
   outputTargets: [
     {
       type: 'dist',
