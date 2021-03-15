@@ -23,23 +23,35 @@
     "build:tailwind": "npx tailwindcss build src/main.css -o src/style.css"
   },
   "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/css": "^11.1.3",
+    "@emotion/styled": "^11.1.5",
     "@stencil/core": "^2.0.1",
     "@types/jest": "^26.0.20",
+    "babel-plugin-macros": "^3.0.1",
     "classnames": "^2.2.6",
+    "design-system-utils": "^1.5.0",
+    "emotion": "^11.0.0",
     "param-case": "^3.0.4",
     "postcss": "^8.2.6",
     "prop-types": "^15.7.2",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.3",
+    "twin.macro": "^2.3.0",
+    "twind": "^0.15.10",
+    "xwind": "^0.8.0"
   },
   "license": "MIT",
   "devDependencies": {
     "@stencil/postcss": "^2.0.0",
     "@styled-system/should-forward-prop": "^5.1.5",
     "@types/autoprefixer": "^10.2.0",
+    "@types/styled-components": "^5.1.7",
     "autoprefixer": "^10.2.4",
     "lodash": "^4.17.21",
     "stencil-tailwind": "0.0.6",
     "styled-components": "^5.2.1",
-    "styled-system": "^5.1.5"
+    "styled-system": "^5.1.5",
+    "tailwind-styled-components": "^1.0.7"
   }
 }

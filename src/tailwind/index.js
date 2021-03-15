@@ -5,3 +5,5 @@ export {
   propVariants,
 } from './tailwindProps'
 export { default as tailwindPropToClassName } from './tailwindPropToClassName'
+export { default as tailwindPropToStyle } from './tailwindPropToStyle'
+export { default as getTailwindStyle } from './getTailwindStyle'
